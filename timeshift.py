@@ -23,7 +23,10 @@ from datetime import datetime as dt, timedelta
 # the format for the rules is they are indexed by year
 # the first date is when DST begins in local time
 # the second date is when DST ends in local
-_rules = {2012: (dt(2012, 3, 11, 2, 0), dt(2012, 11, 4, 2, 0)),
+_rules = {2009: (dt(2009, 3, 8, 2, 0),  dt(2009, 11, 1, 2, 0)),
+          2010: (dt(2010, 3, 14, 2, 0), dt(2010, 11, 7, 2, 0)),
+          2011: (dt(2011, 3, 13, 2, 0), dt(2011, 11, 6, 2, 0)),
+          2012: (dt(2012, 3, 11, 2, 0), dt(2012, 11, 4, 2, 0)),
           2013: (dt(2013, 3, 10, 2, 0), dt(2013, 11, 3, 2, 0)),
           2014: (dt(2014, 3, 9, 2, 0),  dt(2014, 11, 2, 2, 0)),
           2015: (dt(2015, 3, 8, 2, 0),  dt(2015, 11, 1, 2, 0)),
