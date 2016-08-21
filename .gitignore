@@ -3,6 +3,9 @@
 
 *.py[co]
 
+MANIFEST
+dist
+
 # Packages
 *.egg
 *.egg-info
