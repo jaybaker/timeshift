@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'timeshifter',
-  packages = ['timeshifter'],
+  name = 'timeshift',
+  packages = ['timeshift'],
   version = '0.1',
   description = 'Really simple timzone difference calculator focusing on North America.',
   author = 'Jay Baker',
